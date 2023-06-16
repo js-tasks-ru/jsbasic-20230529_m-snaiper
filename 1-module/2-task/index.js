@@ -11,10 +11,8 @@ function print(text) {
  */
 function isValid(name) {
 
-  if (!!name && name.indexOf(' ') < 0 && name.length >= 4) {
-    return (true)
-  } else return (false)
-  
+  return (!!name && name.indexOf(' ') < 0 && name.length >= 4); 
+
 }
 
 function sayHello() {
